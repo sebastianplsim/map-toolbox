@@ -10,7 +10,7 @@ export function useMap() {
     const map = new mapboxgl.Map({
       accessToken: window.ENV.MAPBOX_ACCESS_TOKEN,
       container: containerId,
-      center: [-74.5, 40], // starting position [lng, lat]
+      center: [-0.118092, 51.509865], // starting position [lng, lat]
       zoom: 9, // starting zoom
       // container: "map",
       projection: {
